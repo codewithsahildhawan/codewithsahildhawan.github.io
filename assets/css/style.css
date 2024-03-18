@@ -696,3 +696,17 @@ small {
 .typed-cursor {
   display: none;
 }
+
+#about ul li {
+  list-style-type: disc;
+}
+
+#about ul {
+  padding: 0px 22px;
+  margin-top: 10px;
+}
+
+#about p {
+  padding: 0px !important;
+  margin:0px  !important;
+}
