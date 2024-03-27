@@ -436,7 +436,6 @@ h3 {
 }
 
 .card ul li {
-  line-height: 200%;
   list-style-type: disc;
   margin-left: 24px;
 }
@@ -709,4 +708,61 @@ small {
 #about p {
   padding: 0px !important;
   margin:0px  !important;
+}
+
+.card.medium .card-image {
+  text-align: center;
+}
+
+.card.medium .card-image i {
+  font-size: 10rem;
+}
+
+.card.medium {
+  height: auto;
+}
+
+.card.medium .card-content {
+  height: auto;
+}
+
+.card .card-content {
+  padding: 10px;
+}
+
+.card a {
+  color: #406eff;
+  margin-right: 20px;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card .card-content .card-title {
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.card .card-content p {
+  padding: 10px 0px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card.medium {
+  height: 260px;
+}
+
+.card .card-title {
+  font-size: 20px;
+}
+
+
+[class^=devicon-], [class*=" devicon-"] {
+  font-size: 8rem;
 }
